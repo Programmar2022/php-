@@ -8,11 +8,11 @@
 		<?php
 		
 			// Get the selected processor and RAM from the form submission
-				$processor = $_POST['processor'];
-				$ram = $_POST['ram'];
+				$processor = $_GET['processor'];
+				$ram = $_GET['ram'];
 
 			// Get the selected accessories from the form submission
-				$accessories = isset($_POST['accessories']) ? $_POST['accessories'] : array();
+				$accessories = isset($_GET['accessories']) ? $_GET['accessories'] : array();
 
 			// Set the prices for each component
 				$processor_prices = array(
@@ -38,7 +38,7 @@
 
 			// Calculate the total cost of the components
 				$total_cost = $processor_prices[$processor] + $ram_prices[$ram];
-				foreach ($accessories as $accessory) {
+				for ($accessories as $accessory) {
 				  $total_cost += $accessory_prices[$accessory];
 			}
 
