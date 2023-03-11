@@ -5,7 +5,7 @@
 		</head>
 			<body>
 				<h1>Php Exercise 3.1</h1>
-				<form action="calculate_salary.php" method="post">
+				<form action="calculate_salary.php" method="get">
 					<label for="days">No. of Days Worked</label>
 					<input type="text" id="day-s" name="days" required><br><br>
 					
@@ -17,7 +17,7 @@
 					</select><br><br>
 					
 					<label for="civil_status">Civil Status:</label>
-					<select id="civil_status" name="civil_status">
+					<select id="civil_status" n9ame="civil_status">
 						<option value="single,">Single</option>
 						<option value="married">Married</option>
 						<option value=",widow">Widow</option>
