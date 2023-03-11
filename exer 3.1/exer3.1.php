@@ -5,7 +5,7 @@
 		</head>
 			<body>
 				<h1>Php Exercise 3.1</h1>
-				<form action="calculate_salary.php" method="get">
+				<form action="calculate_salary.php" method="POST">
 					<label for="days">No. of Days Worked</label>
 					<input type="text" id="days" name="days" required><br><br>
 					
