@@ -8,11 +8,11 @@
 		<?php
 		
 			// Get the selected processor and RAM from the form submission
-				$processor = $_GET['processor'];
-				$ram = $_GET['ram'];
+				$processor = $_POST['processor'];
+				$ram = $_POST['ram'];
 
 			// Get the selected accessories from the form submission
-				$accessories = isset($_GET['accessories']) ? $_GET['accessories'] : array();
+				$accessories = isset($_POST['accessories']) ? $_POST['accessories'] : array();
 
 			// Set the prices for each component
 				$processor_prices = array(
