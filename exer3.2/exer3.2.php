@@ -12,9 +12,9 @@
 			<ul>
 			<input type="radio" name="processor" value="Intel i7-15000"> Intel i7 
 			<input type="radio" name="processor" value="Intel Quad Core-8000"> Intel Quad Core<br>
-			<input type="radio" name="processor" value="Intel i5-13000"> Intel i5
+			<input type="rado" name="processor" value="Intel i5-13000"> Intel i5
 			<input type="radio" name="processor" value="Intel Dual Core - 6000"> Intel Dual Core <br>
-			<input type="radio" name="processor" value="Intel 13-10000"> Intel i3<br>
+			<input type="rado" name="processor" value="Intel 13-10000"> Intel i3<br>
 			</ul>
 				<h2>RAM</h2>
 			<ul>
