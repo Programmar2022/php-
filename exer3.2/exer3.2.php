@@ -14,7 +14,7 @@
 			<input type="radio" name="processor" value="Intel Quad Core-8000"> Intel Quad Core<br>
 			<input type="rado" name="processor" value="Intel i5-13000"> Intel i5
 			<input type="radio" name="processor" value="Intel Dual Core - 6000"> Intel Dual Core <br>
-			<input type="rado" name="processor" value="Intel 13-10000"> Intel i3<br>
+			<input type="radio" name="processor" value="Intel 13-10000"> Intel i3<br>
 			</ul>
 				<h2>RAM</h2>
 			<ul>
@@ -27,7 +27,7 @@
 			<ul>
 			<input type="checkbox" name="accessories[]" value="Gaming Keyboard-3000"> Gaming Keyboard<br>
 			<input type="checkbox" name="accessories[]" value="Gaming Mouse-2000"> Gaming Mouse<br>
-			<input type="checkbox" name="accessories[]"value="Gaming Headset-3500"> Gaming Headset<br>
+			<input type="checkbox" name="accessories[]" value="Gaming Headset-3500"> Gaming Headset<br>
 			</ul>
 
 			<input type="submit" name="submit" value="Compute">
